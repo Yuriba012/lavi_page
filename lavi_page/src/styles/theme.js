@@ -38,7 +38,7 @@ export const theme = extendTheme({
             900: '#373737'
         },
         blue:{
-            500: "#020ca1"
+            500: "#151074"
         },
         pink: {
             500: "#FF6489"

@@ -5,7 +5,7 @@ import {theme} from '../../styles/theme'
 export const Container = styled.header`
     color: white;
     height: 150px;
-    padding 20px 10px;
+    padding: 20px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +22,26 @@ export const Container = styled.header`
         justify-content: space-around;
     }
 `
-export const Logo = styled.div`
-    display: flex;
-    
+export const Logo = styled.img`
+width:150px;
+`
+
+export const Title = styled.h1`
+position: absolute;
+
+left: 32%;
+color: white;
+max-width:450px;
+font-weight: bold;
+text-align:center;
+word-wrap: break-word;
+font-size: 38px;
+`
+
+export const SecLogos = styled.div`
+// width:250px;
+display:flex;
+padding:1px;
+justify-content:center;
+background-color:white;
 `
